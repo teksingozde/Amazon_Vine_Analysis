@@ -23,6 +23,7 @@ It should be noted that Amazon AWS service was used at the beginning of the stud
 S3, on the other hand, is a simple storage service and is a cloud storage service that provides the transportation of many files without providing access to any computer, provided that they are received by Google Colaboratory.
 
 Sagemaker, on the other hand, is a SQL platform that we built on AWS. Here, PostgreSQL is selected and the created local host connects to DBeaver and transfers the datasets, namely tables, that we created on Google Colaboratory without the need for a completely local computer. The necessary datasets are exported via DBeaver. In our work, the tables are exported as .csv file via DBeaver. However, you can also do the export in many ways, which are listed below.
+
 <img width="591" alt="Screen Shot 2023-01-12 at 3 34 47 PM" src="https://user-images.githubusercontent.com/26927158/212211245-dbcef4cf-b0e2-4ee2-b596-1a4d49f52caa.png">
 
 At the same time, you can easily access the ER Diagram to examine the relationships between the tables. When the exported tables are complete, connections with RDS are cut.
