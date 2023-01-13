@@ -45,38 +45,46 @@ Additionally, vine_Review_Analysis has been added with the help of pandas librar
 Vine Review Analysis results are as below and screenshots of the results are taken from Google Colaboratory.
 
 #### Table 1. Vine DataFrame
-![image](https://user-images.githubusercontent.com/26927158/212211521-0f5ba643-5610-4400-ba70-923e964d7527.png)
+<img width="976" alt="Vine DataFrame" src="https://user-images.githubusercontent.com/26927158/212214306-f1483654-2b95-426d-8352-1007741ea1f6.png">
+
 In the table above, the first 20 columns usually contain the information of people who are not a vine member. Generally, the scores given are 4 and 5. It is included in the first 20 columns, most of which are unapproved products.
 
 #### Table 2. Total Votes Count DataFrame
-![image](https://user-images.githubusercontent.com/26927158/212211627-951b1337-d442-4d26-80c4-e3ec53de3f79.png)
+<img width="698" alt="Total Votes Count" src="https://user-images.githubusercontent.com/26927158/212214373-a0d9534c-533a-45ca-8510-1ff48d6a6415.png">
+
 The first filter shows the votes with more than 20 total votes. In terms of each ID, it is seen that the majority of the total votes are considered helpful. However, not all of these first 20 lines are vine members and the majority of them are not endorsed products. The star rating points given also vary a lot.
 
 #### Table 3. New Votes DataFrame 
-![image](https://user-images.githubusercontent.com/26927158/212211706-227c616d-28a9-4635-9010-d028dead9b55.png)
+<img width="997" alt="New Votes" src="https://user-images.githubusercontent.com/26927158/212214404-afdaf07f-b329-425f-8bf8-e803953afb72.png">
+
 The table above shows the DataFrame where helpful votes were selected as helpful more than half of the total votes. However, reviewers of these products are also not vine members, and overall star ratings vary. The products in the first 20 lines are listed as approved and unapproved. The highest total votes is 388 and the lowest is 20 as seen in the table. 370 of the criticism articles, which received 388 votes, were accepted as helpful. This is a very large rate and it can be seen that the person approves the product. Likewise, the critique with a total of 20 votes was approved and received 5 points.
 
 #### Table 4. Unpaid Program Review DataFrame
-![image](https://user-images.githubusercontent.com/26927158/212211807-713629c2-ac70-495d-bae8-c39e8f61eedc.png)
+<img width="700" alt="Unpaid Program Review" src="https://user-images.githubusercontent.com/26927158/212214436-42aca985-6207-40d6-8d6c-2ac52ce07c56.png">
+
 Unpaid program review results are the same as in Table 3. Because unpaid people are not vine members and do not pay any fees.
 
 #### Table 5. Paid Program Review DataFrame
-![image](https://user-images.githubusercontent.com/26927158/212211901-e1221827-8fd9-48d9-bc98-1dabe748f04e.png)
+<img width="697" alt="Paid Program Review" src="https://user-images.githubusercontent.com/26927158/212214465-f1642a12-b59a-4c0c-a6b7-79815513c8ea.png">
+
 The analysis of people who are members of Vine is shown in table 5. In general, it is seen that they receive less votes than those who are not members of Vine, and in general, the majority of them are also beneficial. However, voting products are also seen as unapproved. In terms of star rating, there is a medium scoring system.
 
 #### Table 6. Total - Unpaid - Paid Reviews 
-![image](https://user-images.githubusercontent.com/26927158/212211987-0bb3118c-0ae9-4079-bc7a-a1571afce6a4.png)
+<img width="434" alt="Total Reviews Paid Unpaid" src="https://user-images.githubusercontent.com/26927158/212214537-61d321cb-2bd6-4814-857c-fdaec5fd316d.png">
+
 - How many Vine reviews and non-Vine reviews were there?
 In Table 6., the total vote of the criticism articles is 740,983.
 While 736,202 of these total votes are non-vine members, 4,781 are vine members. According to the above analysis, non-vine members are approximately 154 times higher than vine members.
 
 #### Table 7. Total - Unpaid - Paid Five Star Reviews 
-![image](https://user-images.githubusercontent.com/26927158/212212124-0c5030dc-1ded-4d69-90de-a639ee218dad.png)
+<img width="851" alt="Five Star Total Paid Unpaid" src="https://user-images.githubusercontent.com/26927158/212214576-ca3ff6d5-daed-4542-9a94-495bbea4d01e.png">
+
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 Table 7. shows the distribution of the products given 5 points between those with and without vine members. Those with a total of 5 points are 413,293, while those with vine members are 1.604 and those without vine members are 411.689. That is, those who are members of Vine are at very low levels in terms of both the number of criticisms and points.
 
 #### Table 8. Percentage of Five Star Reviews Unpaid - Paid
-![image](https://user-images.githubusercontent.com/26927158/212212243-1bf23754-3d2a-4aa3-9d17-cf46b9c69602.png)
+<img width="596" alt="Percent Reviews Paid Unpaid" src="https://user-images.githubusercontent.com/26927158/212214611-30eeb99a-57d2-4808-8d83-e34e28237994.png">
+
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 While the 5 star review percentage of Vine members was 33.54%, the 5 star percentage of non-vine members was analyzed as 55.92%. This means that vine membership is in the form that there is no pre-judgment in the voting system and reviews in any way.
 
